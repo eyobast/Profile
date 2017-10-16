@@ -81,9 +81,9 @@ html {
   background-color: #eee;
 }
 
-.about-me-content > p {
+.about-me-content p {
   /* Box-model */
-  padding-top: 20px;
+  /*padding-top: 20px;*/
 
   /* Typography */
   font-size: 16px;
@@ -97,8 +97,8 @@ html {
 
   /* Box-model */
   width: 200px;
-  height: 200px;
-  margin-top: 20px;
+  height: 230px;
+  margin-top: 5px;
   margin-right: 20px;
 }
 
@@ -130,15 +130,15 @@ html {
 }
 
 .connect-with-me-photo {
-  width: 55px;
+  width: 120px;
 
   /* Box-model */
-  height: 55px;
+  height: 75px;
 }
 
 #images {
   /* Box-model */
-  padding-top: 15px;
+  /*padding-top: 10px;*/
 
   /* Typography */
   text-align: center;
@@ -157,7 +157,7 @@ html {
   margin-top: 30px;
 
   /* Visual */
-  background-color: #666;
+  background-color: #665;
 }
 
 .text-muted-footer {
@@ -206,6 +206,7 @@ html {
   font-size: 32px;
   font-weight: bold;
   color: #4aaaa5;
+  text-align: center;
 }
 
 #name_input,
@@ -261,19 +262,20 @@ html {
 
 #portfolio-area {
   /* Box-model */
-  width: 85%;
-  padding: 45px 10px 25px 31px;
+  width: 100%;
+
+  /*padding: 45px 10px 25px 31px;*/
 
   /* Positioning */
   margin-top: 30px;
   margin-bottom: 200px;
 
   /* Visual */
-  background-color: #eee;
+  /*background-color: #eee;*/
 }
 
 .port-hr {
-  margin-bottom: 40px;
+  /*margin-bottom: 40px;*/
 }
 
 .port-imgs {
@@ -320,4 +322,51 @@ html {
     /* Visual */
     background: #4aaaa5;
   }
+}
+
+.work {
+  /* Positioning */
+  position: relative;
+  float: left;
+
+  /* Box-model */
+  width: 550px;
+  margin: 0 30px 25px;
+  overflow: auto;
+}
+
+.work img {
+  /* Box-model */
+  width: 100%;
+
+  /* Visual */
+  border: 0 none;
+
+  /* Misc */
+  opacity: 0.8;
+}
+
+.work h5 {
+  /* Positioning */
+  position: relative;
+  bottom: 20px;
+  width: 100%;
+
+  /* Box-model */
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 15px;
+
+  /* Typography */
+
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+
+  /* Visual */
+  border-bottom: 0;
+}
+.work p{
+  text-align: left;
 }
